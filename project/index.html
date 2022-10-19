@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Gym.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Logo.png"  alt="Logo">
+             <div> My Gym </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a> </li>
+                <!-- <li><a href="#" class="active">Home</a> </li> -->
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a> </li>
+                <li><a href="#">Contact Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" id="search" placeholder="Search this website">
+            <button class="btn" >Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Join the best Gym now !</h1>
+        <form action="action.php ">
+            <div class="form-group">
+                <div>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <br>
+                <div>
+                    <input type="text" placeholder="Your Contact Number">
+                </div>
+                <br>
+                Gender
+                <br><br>
+                <label id="male">
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                <label id="female">
+                    <input type="radio" name="gender"  value="Female">Female
+            </div>
+            <br>
+        <div>
+            <button onclick="print_current_page()" class="btn">Submit</button>
+        </div>
+        </form>
+    </div>
+
+
+
+    <div class="service">
+        <div class="text">
+        <h1>Our Service</h1>
+        <div class="box">
+        <div>
+        <h2>Sports Training</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        </div>
+        <div>n
+        <h2>Bicycle Training</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        </div>
+        <div>
+        <h2>Games Training</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="pricing">
+            <div class="price">
+            <h1>Pricing</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="price-box">
+            <div>
+            <h2>Basic</h2>
+            <h3>$11</h3>
+            <h5>1 Month Training</h5>
+            <button class="btn">Buy Now</button>
+            </div>
+            <div>
+            <h2>Standard</h2>
+            <h3>$21</h3>
+            <h5>3 Month Training</h5>
+            <button class="btn">Buy Now</button>
+            </div>
+            <div>
+            <h2>Premium</h2>
+            <h3>$31</h3>
+            <h5>6 Month Training</h5>
+            <button class="btn">Buy Now</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="footer-fluid">
+            <div class="footer">
+            <p>Copyright 2022 - All Right Reserved - Made By <a href="#">SudhanshuSingh</a></p>
+    
+    <!-- <script>
+        function print_current_page()
+        {
+            window.print();
+        }
+        
+
+
+
+        let emailbtn = document.querySelector('button');
+        emailbtn.addEventListener('click',inputMsg);
+ 
+        function inputMsg(){
+            
+             name = prompt('enter your email');
+             alert("SUBMIT ! ")
+        }
+    </script> -->
+    
+</body>
+</html>
